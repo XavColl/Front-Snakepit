@@ -25,7 +25,7 @@ export default function Dashboard() {
   }, [])
 
   if(navigate){
-    return <Navigate to={'/game'} />
+    return <Navigate to={'/Front-Snakepit/game'} />
   }
 
   if(!localStorage.getItem('sptuser') || !localStorage.getItem('sptoken')) {
