@@ -2,8 +2,8 @@ import { Navigate, useLoaderData } from "react-router-dom"
 import { socket } from "../../socket"
 import { useEffect, useState } from "react"
 
-export default function Dashboard() {
-  const data = useLoaderData()
+export default async function Dashboard() {
+  const data = await useLoaderData()
   const player = data.player
   const score = player.score
   const [navigate, setNavigate] = useState(false)
