@@ -5,6 +5,7 @@ import getUser from "../../lib/getUser"
 import { Navigate } from "react-router-dom"
 
 export default function Home() {
+  console.log('hey')
 
   
   const [navigate, setNavigate] = useState(false)
