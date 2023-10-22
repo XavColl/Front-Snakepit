@@ -72,11 +72,13 @@ export default function Game() {
     })
 
     socket.on('win', () => {
+      alert('You won')
       setNav(true)
     })
 
 
     socket.on('lose', () => {
+      alert('You lost')
       setNav(true)
     })
 
