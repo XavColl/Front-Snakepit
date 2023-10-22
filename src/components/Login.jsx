@@ -10,6 +10,7 @@ export default function Login() {
 
     const handleSubmit = async (e) => {
       e.preventDefault()
+      console.log(e)
       await login(email,password,socket)
       setNavigate(true)
     }
