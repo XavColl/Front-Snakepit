@@ -8,9 +8,9 @@ import Game from './pages/Game'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route>
-        <Route path='/' element={<Home />} errorElement={<Error />}></Route>
-        <Route path='/dashboard' element={<Dashboard />} loader={userLoader} errorElement={<Error />}></Route>
-        <Route path='/game' element={<Game />} errorElement={<Error />}></Route>
+        <Route path='/Front-Snakepit/' element={<Home />} errorElement={<Error />}></Route>
+        <Route path='/Front-Snakepit/dashboard' element={<Dashboard />} loader={userLoader} errorElement={<Error />}></Route>
+        <Route path='/Front-Snakepit/game' element={<Game />} errorElement={<Error />}></Route>
         <Route path='/*' element={<Error />} errorElement={<Error />}></Route>
   </Route>
 ))
