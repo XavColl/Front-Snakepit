@@ -32,6 +32,10 @@ export default function Dashboard() {
     <Navigate to={'/'} />
   }
 
+  if(!player){
+    return <></>
+  }
+
   return (
     <main>
       <h1>Welcome to the Snakepit, {player.pseudo}</h1>
