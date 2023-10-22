@@ -29,7 +29,7 @@ export default function Dashboard() {
   }
 
   if(!localStorage.getItem('sptuser') || !localStorage.getItem('sptoken')) {
-    <Navigate to={'/'} />
+    <Navigate to={'/Front-Snakepit/'} />
   }
 
   if(!player){

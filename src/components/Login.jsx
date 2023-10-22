@@ -16,7 +16,7 @@ export default function Login() {
 
    
     if(navigate){
-      return <Navigate to={'/dashboard'} />
+      return <Navigate to={'/Front-Snakepit/dashboard'} />
     }
 
   return (

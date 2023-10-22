@@ -98,7 +98,7 @@ export default function Game() {
     }, []);
 
     if(nav){
-      return <Navigate to='/dashboard' />
+      return <Navigate to='/Front-Snakepit/dashboard' />
     }
 
     if(gameData.board){
