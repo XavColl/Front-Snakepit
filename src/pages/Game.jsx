@@ -102,7 +102,10 @@ export default function Game() {
     }
 
     if(gameData.board){
-        return <Board game={gameData} place={place} turn={turn} position={position} tp={tp} />
+        return <>
+            <Board game={gameData} place={place} turn={turn} position={position} tp={tp} />
+            <p>Actions left : {3 - gameData.action}</p>
+          </>
     }
 
   return (
