@@ -75,3 +75,10 @@
     background-color: rgb(97, 195, 251);
     border-radius: 3px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Board{
+        width: 400px;
+        height: 400px;
+    }
+}
